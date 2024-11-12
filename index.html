@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        background-image: linear-gradient(#eb3349, #f45c43);
+        min-height: 100vh;
+    }
+    .box {
+        width: 400px;
+        height: 500px;
+        background: #fff;
+        margin: 100px auto;
+        text-align: center;
+        padding: 50px 20px;
+        border-radius: 5px;
+    }
+    input[type="email"],input[type="password"]{
+        width: 100%;
+        padding: 6px 10px;
+        margin-bottom: 20px;
+    }
+    .box a{
+        margin-bottom: 10px;
+        display: block;
+        color: #000;
+        opacity: 0.5;
+    }
+    input[type="submit"]{
+        width: 60%;
+        padding: 15px;
+        text-transform: uppercase;
+        color: #fff;
+        background: rgb(255, 64, 47);;
+        border-radius: 20px;
+        border: none;
+        font-weight: 700;
+
+    }
+    .box h1{
+        margin-bottom: 20px;
+        font-size: 50px;
+        text-align: center;
+        font-family: "Sour Gummy", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+}
+
+</style>
+</head>
+<body>
+    <div class="box">
+        <h1> Sign in</h1>
+        <form>
+        <input type="email" placeholder="Enter your email"> <br>
+        <input type="password" placeholder="Enter your password"><br> 
+        <a href=""> Forgot your password?</a><br>
+        <input type="submit" value="Sign in">
+        </form>
+    </div>
+</body>
+</html>
